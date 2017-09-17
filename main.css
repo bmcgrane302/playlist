@@ -1,0 +1,81 @@
+*{
+  font-family: Avenir Next;
+}
+#track_bin{
+  color: #8E619D;
+   margin-bottom: 5px;
+}
+nav{
+  border-bottom: 1px solid black;
+}
+.head{
+    background-color: #A0A090;
+}
+.pageTwo{
+  padding-top: 70px;
+  padding-left: 40px;
+  height: 140px;
+}
+footer{
+  border-top: 1px solid black;
+}
+.centerL{
+  height: 800px;
+  justify-content: center;
+  flex-direction: column;
+}
+.centerR{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url(resources/fadedTrack2.jpg);
+  background-size: cover;
+}
+footer{
+  background-color: #A0A090;
+  height: 60px;
+  margin-top: -20px;
+  padding-left: 10%;
+  padding-top: 1%;
+  font-size: 22px;
+}
+.albumArt{
+  margin: 2vh;
+  height: 15rem;
+  width: 15rem;
+}
+.albumCov{
+  margin: 4vh;
+  height: 7rem;;
+  width: 7rem;
+}
+.albumList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+}
+.albumInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+}
+.textBox{
+  border: 3px solid black;
+  height: 180px;
+  width: 80vw;
+  line-height: 2px;
+}
+.bottomRow{
+  margin-left: 10%;;
+  height: 300px;
+  width: 80vw;
+}
+#clear{
+
+}

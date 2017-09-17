@@ -5,32 +5,37 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="main.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src='./app2.js'></script>
+  <script src='./page2app.js'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
 
   <title>PLAY LIST</title>
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper head">
+  <nav class="nav-extended ">
+
+    <div class="nav-content head pageTwo">
+      <span class="nav-title">click on album to adds its tracks to the bin</span>
     </div>
   </nav>
+   <div class="albumList">
 
-  <div class="row">
-
-    <div class="centerL col s6 valign-wrapper">
-        <h2 id="track_bin">track bin</h2>
-        <a class="waves-effect waves-light btn black" href="playlist.html" target="_blank">choose track</a>
    </div>
 
-    <div class="centerR col s6">
+    <div class="albumInput">
+      <div class="textBox">
 
+      </div>
+    </div>
+    <div class="bottomRow">
+      <div class="twoButtons">
+        <a id="clear" class="btn black clear">clear tracks</a>
+        <a id="submit" class="btn black" >submit to bin</a>
+
+      </div>
     </div>
 
-  </div>
 
   <footer>
     <div class="footer-copyright">
