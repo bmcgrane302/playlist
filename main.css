@@ -5,6 +5,9 @@
   color: #8E619D;
    margin-bottom: 5px;
 }
+#choose_track{
+  background-color: #343425;
+}
 nav{
   border-bottom: 1px solid black;
 }
@@ -77,5 +80,8 @@ footer{
   width: 80vw;
 }
 #clear{
-
+  background-color: #343425;
+}
+#sub{
+  background-color: #343425;
 }
